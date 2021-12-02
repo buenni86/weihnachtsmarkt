@@ -42,7 +42,7 @@ WA.room.onEnterZone(zoneMusikModern, () => {
         {
             label: "Her damit!",
 			callback: (popup => {
-                WA.nav.openCoWebSite(urlMusikClassic);
+                WA.nav.openCoWebSite(urlMusikModern);
                 isCoWebSiteOpened = true;
                 closePopUp();
             })
